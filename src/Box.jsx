@@ -14,6 +14,9 @@ export default function Box({on}) {
     }
     
     return (
-        <div style={styles} className="box" onClick={clickHandler}></div>
+        <div className="box--container">
+            <div style={styles} className="box" onClick={clickHandler}></div>
+        </div>
+        
     )
 }

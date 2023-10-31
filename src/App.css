@@ -1,15 +1,21 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* padding: 2rem; */
+  /* text-align: center; */
 }
 
 .box {
-  display: grid;
+  /* display: grid;
   grid-template-rows: 50px 50px 50px;
-  grid-template-columns: 50px 50px 50px;
+  grid-template-columns: 50px 50px 50px; */
   border: 1px solid rgb(255, 255, 255);
   margin-right: 4px;
   border-radius: 5px;
+}
+
+.box--container {
+  display: grid;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px;
 }
