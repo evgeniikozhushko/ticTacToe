@@ -5,17 +5,16 @@
   /* text-align: center; */
 }
 
+.box--container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 50px);
+  grid-template-rows: repeat(3, 50px);
+}
+
 .box {
-  /* display: grid;
-  grid-template-rows: 50px 50px 50px;
-  grid-template-columns: 50px 50px 50px; */
   border: 1px solid rgb(255, 255, 255);
   margin-right: 4px;
   border-radius: 5px;
 }
 
-.box--container {
-  display: grid;
-    grid-template-rows: 50px 50px 50px;
-    grid-template-columns: 50px 50px 50px;
-}
